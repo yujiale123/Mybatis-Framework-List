@@ -2,8 +2,8 @@ package com.mybatis.test;
 
 import com.mybatis.mapper.IOrderMapper;
 import com.mybatis.mapper.IUserMapper;
-import com.mybatis.pojo.Order;
-import com.mybatis.pojo.User;
+import com.mybatis.entity.Order;
+import com.mybatis.entity.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;

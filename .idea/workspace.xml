@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1b8c6151-4e2b-4cdf-900c-22912b6d4fbb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Mybatis-QuickStarter/src/main/java/com/mybatis/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-QuickStarter/src/main/java/com/mybatis/mapper/IUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-QuickStarter/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-QuickStarter/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-QuickStarter/src/main/resources/sqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-QuickStarter/src/test/java/com/mybatis/MybatisOneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mybatis-QuickStarter/src/test/java/com/mybatis/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis-QuickStarter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Base/src/main/java/com/mybatis/base/entity/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Base/src/main/java/com/mybatis/base/entity/Emp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Base/src/main/java/com/mybatis/base/entity/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Base/src/main/java/com/mybatis/base/mapper/CustomerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Base/src/main/java/com/mybatis/base/mapper/EmpMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Base/src/main/java/com/mybatis/base/mapper/OrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Base/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Base/src/main/resources/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Base/src/main/resources/mapper/EmpMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Base/src/main/resources/mapper/OrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Base/src/main/resources/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Base/src/test/java/com/mybatis/test/ImprovedMybatisTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Base/src/test/java/com/mybatis/test/MybatisTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-Cache/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-master/src/test/java/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-master/src/test/java/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-master/src/test/java/com/mybatis/mapper/IOrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-master/src/test/java/com/mybatis/mapper/IOrderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-master/src/test/java/com/mybatis/mapper/IUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-master/src/test/java/com/mybatis/mapper/IUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-master/src/test/java/com/mybatis/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-master/src/test/java/com/mybatis/entity/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-master/src/test/java/com/mybatis/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-master/src/test/java/com/mybatis/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-3-master/src/test/java/com/mybatis/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-3-master/src/test/java/com/mybatis/test/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <disabled>
+      <disabled_changelists>
+        <list default="true" id="1b8c6151-4e2b-4cdf-900c-22912b6d4fbb" name="Default Changelist" comment="mybatis框架源码" />
+      </disabled_changelists>
+      <disabled_trackers />
+    </disabled>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="mai_nmain" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHome" value="$USER_HOME$/Documents/maven/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="$USER_HOME$/Documents/maven/apache-maven-3.6.2/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="21w9gGrxbk1dTDOxdFRzanUnHHs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Mybatis-QuickStarter/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Mybatis-QuickStarter/src/main/resources" />
+      <recent name="$PROJECT_DIR$/Mybatis-QuickStarter/src/main/java/com/mybatis" />
+      <recent name="$PROJECT_DIR$/Mybatis-Cache/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Mybatis-QuickStarter/src/main/resources/mapper" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b8c6151-4e2b-4cdf-900c-22912b6d4fbb" name="Default Changelist" comment="" />
+      <created>1638841392211</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638841392211</updated>
+      <workItem from="1638841393576" duration="2000000" />
+      <workItem from="1638843404666" duration="95000" />
+      <workItem from="1638843502953" duration="1541000" />
+      <workItem from="1638845050485" duration="52000" />
+      <workItem from="1638845106905" duration="64000" />
+      <workItem from="1638845174921" duration="23000" />
+      <workItem from="1638845200885" duration="1000" />
+      <workItem from="1638845207442" duration="48000" />
+      <workItem from="1638845278463" duration="48000" />
+      <workItem from="1638845340364" duration="143000" />
+      <workItem from="1638845488569" duration="115000" />
+      <workItem from="1638845606989" duration="118000" />
+      <workItem from="1638845729170" duration="193000" />
+      <workItem from="1638845926119" duration="1550000" />
+      <workItem from="1638847483938" duration="247000" />
+      <workItem from="1638847736024" duration="55000" />
+      <workItem from="1638847866978" duration="353000" />
+      <workItem from="1638848235786" duration="4445000" />
+    </task>
+    <task id="LOCAL-00001" summary="mybatis框架源码">
+      <created>1638843914047</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638843914047</updated>
+    </task>
+    <task id="LOCAL-00002" summary="测试">
+      <created>1638846032637</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638846032637</updated>
+    </task>
+    <task id="LOCAL-00003" summary="测试">
+      <created>1638846474397</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638846474397</updated>
+    </task>
+    <task id="LOCAL-00004" summary="11">
+      <created>1638848490053</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638848490053</updated>
+    </task>
+    <task id="LOCAL-00005" summary="11">
+      <created>1638848707284</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638848707284</updated>
+    </task>
+    <task id="LOCAL-00006" summary="mybatis基础使用">
+      <created>1638848996761</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638848996761</updated>
+    </task>
+    <task id="LOCAL-00007" summary="mybatis源码解析">
+      <created>1638849215626</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638849215626</updated>
+    </task>
+    <task id="LOCAL-00008" summary="备份">
+      <created>1638854228276</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1638854228276</updated>
+    </task>
+    <task id="LOCAL-00009" summary="备份">
+      <created>1638854444458</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1638854444458</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <MESSAGE value="mybatis框架源码" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis框架源码" />
+  </component>
+</project>

@@ -9,8 +9,7 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>Mybatis-Base</module>
-        <module>Mybatis-Cache</module>
+        <module>Mybatis-QuickStarter</module>
     </modules>
 
     <properties>
@@ -44,6 +43,11 @@
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus</artifactId>
+            <version>3.3.1</version>
         </dependency>
     </dependencies>
 

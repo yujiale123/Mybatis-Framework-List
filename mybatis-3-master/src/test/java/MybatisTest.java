@@ -1,5 +1,5 @@
 import com.mybatis.mapper.IUserMapper;
-import com.mybatis.pojo.User;
+import com.mybatis.entity.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;

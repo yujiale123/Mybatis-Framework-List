@@ -1,6 +1,6 @@
 package com.mybatis.mapper;
 
-import com.mybatis.pojo.Order;
+import com.mybatis.entity.Order;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package com.mybatis.mapper;
 
-import com.mybatis.pojo.User;
+import com.mybatis.entity.User;
 
 import java.util.List;
 
