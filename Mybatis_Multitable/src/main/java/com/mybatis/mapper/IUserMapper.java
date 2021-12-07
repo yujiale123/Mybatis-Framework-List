@@ -1,6 +1,6 @@
 package com.mybatis.mapper;
 
-import com.lagou.pojo.User;
+import com.mybatis.pojo.User;
 import org.apache.ibatis.annotations.*;
 import org.mybatis.caches.redis.RedisCache;
 
