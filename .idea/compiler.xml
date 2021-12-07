@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Mybatis-QuickStarter" />
+        <module name="Mybatis_Multitable" />
         <module name="Mybatis-customize-framework" />
         <module name="mybatis" />
       </profile>
