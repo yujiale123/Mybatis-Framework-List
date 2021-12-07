@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-3-master/pom.xml" />
         <option value="$PROJECT_DIR$/Mybatis-customize-framework/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-plus-spring-boot/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
