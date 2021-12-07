@@ -12,6 +12,7 @@
         <module>Mybatis-QuickStarter</module>
         <module>Mybatis_Multitable</module>
         <module>Mybatis-Plus-Demo</module>
+        <module>MybatisPlus-SpringCodeGenerator</module>
     </modules>
 
     <properties>
