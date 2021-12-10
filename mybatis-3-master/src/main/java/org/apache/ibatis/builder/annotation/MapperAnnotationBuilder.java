@@ -93,7 +93,7 @@ public class MapperAnnotationBuilder {
     }
 
     /**
-     * 解析注解
+     * 解析mapper映射文件
      */
     public void parse() {
         // 判断当前 Mapper 接口是否应加载过。

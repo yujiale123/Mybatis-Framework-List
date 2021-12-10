@@ -111,7 +111,7 @@ public class SqlSessionFactoryBuilder {
 
     /**
      * 创建 DefaultSqlSessionFactory 对象
-     *
+     *  到n
      * @param config Configuration 对象
      * @return DefaultSqlSessionFactory 对象
      */

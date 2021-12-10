@@ -1,5 +1,8 @@
 package com.mybatis.entity;
 
+/**
+ * @author yujiale
+ */
 public class User {
 
     private Integer id;

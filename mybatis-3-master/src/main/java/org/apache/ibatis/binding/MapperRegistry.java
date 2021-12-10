@@ -39,8 +39,8 @@ public class MapperRegistry {
      * MapperProxyFactory 的映射
      *
      * KEY：Mapper 接口
+     * 这个类中维护一个HashMap存放MapperProxyFactory
      */
-    //这个类中维护一个HashMap存放MapperProxyFactory
     private final Map<Class<?>, MapperProxyFactory<?>> knownMappers = new HashMap<>();
 
     public MapperRegistry(Configuration config) {

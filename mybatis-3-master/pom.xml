@@ -27,7 +27,7 @@
   </parent>
 
   <artifactId>mybatis</artifactId>
-  <version>3.5.3</version>
+  <version>3.5.3-my</version>
   <packaging>jar</packaging>
 
   <name>mybatis</name>
@@ -156,8 +156,8 @@
       <groupId>org.javassist</groupId>
       <artifactId>javassist</artifactId>
       <version>3.24.1-GA</version>
-      <scope>compile</scope>
-      <optional>true</optional>
+<!--      <scope>compile</scope>-->
+<!--      <optional>true</optional>-->
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
