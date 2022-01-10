@@ -1,6 +1,8 @@
 package com.mybatis.mapper;
 
 import com.mybatis.entity.User;
+import org.apache.ibatis.session.SqlSession;
+
 import java.util.List;
 
 
@@ -12,3 +14,4 @@ public interface UserMapper {
 
     List<User> selectAllUser();
 }
+

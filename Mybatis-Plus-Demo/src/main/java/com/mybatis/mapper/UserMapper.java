@@ -12,20 +12,21 @@ public interface UserMapper extends BaseMapper<User> {
 
     /**
      * 查询所有用户
+     *
      * @return
      */
     public List<User> findAll();
 
 
+
     /**
      * 添加用户
+     *
      * @param user
      * @return
      */
     public int insertUser(User user);
 
 
-
-
-
 }
+

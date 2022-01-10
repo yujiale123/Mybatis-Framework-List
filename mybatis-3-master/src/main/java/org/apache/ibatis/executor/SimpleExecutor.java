@@ -67,7 +67,7 @@ public class SimpleExecutor extends BaseExecutor {
         Statement stmt = null;
         try {
             Configuration configuration = ms.getConfiguration();
-            // 传入参数创建StatementHanlder对象来执行查询
+            // 传入参数创建StatementHandler对象来执行查询
             StatementHandler handler = configuration.newStatementHandler(wrapper, ms, parameter, rowBounds, resultHandler, boundSql);
             // 创建jdbc中的statement对象
             stmt = prepareStatement(handler, ms.getStatementLog());
