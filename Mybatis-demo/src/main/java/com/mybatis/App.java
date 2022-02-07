@@ -33,9 +33,9 @@ public class App {
             SqlSession session = sqlMapper.openSession();
             try {
                 // 执行查询 底层执行jdbc
-                User user = (User) session.selectOne("com.mybatis.mapper.UserMapper.selectById", 1);
+                User user = (User) session.selectOne("com.mybatis.mapper.UserMapper.selectById", "");
                 session.commit();
-                System.out.println(user.getUserName());
+              //  System.out.println(user.getUsername());
             } catch (Exception e) {
                 e.printStackTrace();
             } finally {
@@ -64,9 +64,9 @@ public class App {
 
         // 4.(1)根据statementId来从Configuration中map集合中获取到了指定的MappedStatement对象
         //(2)将查询任务委派了executor执行器
-        User user = sqlSession.selectOne("com.mybatis.mapper.UserMapper.selectById", 1);
+        User user = sqlSession.selectOne("com.mybatis.mapper.UserMapper.selectById", "nacos");
         System.out.println(user);
-        User user2 = sqlSession.selectOne("com.mybatis.mapper.UserMapper.selectById", 1);
+        User user2 = sqlSession.selectOne("com.mybatis.mapper.UserMapper.selectById", "");
         System.out.println(user2);
         // 5.释放资源
         sqlSession.close();

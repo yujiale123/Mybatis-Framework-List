@@ -1,7 +1,7 @@
 package com.mybatis.mapper;
 
 import com.mybatis.entity.User;
-import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import java.util.List;
  * @author yujiale
  */
 public interface UserMapper {
-    User selectById(Long id);
+    User selectById(@Param("userName") String username);
 
     List<User> selectAllUser();
 }

@@ -44,31 +44,31 @@
   <contributors>
     <contributor>
       <name>Adam Gent</name>
-      <email>adam.gent@evocatus.com.spring.mvc.controller.DemoController</email>
+      <email>adam.gent@evocatus.com</email>
     </contributor>
     <contributor>
       <name>Andrea Selva</name>
-      <email>selva.andre@gmail.com.spring.mvc.controller.DemoController</email>
+      <email>selva.andre@gmail.com</email>
     </contributor>
     <contributor>
       <name>Antonio Sánchez</name>
-      <email>juntandolineas@gmail.com.spring.mvc.controller.DemoController</email>
+      <email>juntandolineas@gmail.com</email>
     </contributor>
     <contributor>
       <name>Arkadi Shishlov</name>
-      <email>arkadi.shishlov@gmail.com.spring.mvc.controller.DemoController</email>
+      <email>arkadi.shishlov@gmail.com</email>
     </contributor>
     <contributor>
       <name>Axel Doerfler</name>
-      <email>axel.doerfler@gmail.com.spring.mvc.controller.DemoController</email>
+      <email>axel.doerfler@gmail.com</email>
     </contributor>
     <contributor>
       <name>Chris Dadej</name>
-      <email>chris.dadej@gmail.com.spring.mvc.controller.DemoController</email>
+      <email>chris.dadej@gmail.com</email>
     </contributor>
     <contributor>
       <name>Denis Vygovskiy</name>
-      <email>qizant@gmail.com.spring.mvc.controller.DemoController</email>
+      <email>qizant@gmail.com</email>
     </contributor>
     <contributor>
       <name>Franta Mejta</name>
@@ -76,11 +76,11 @@
     </contributor>
     <contributor>
       <name>Jurriaan Pruys</name>
-      <email>jurriaan@pruys.com.spring.mvc.controller.DemoController</email>
+      <email>jurriaan@pruys.com</email>
     </contributor>
     <contributor>
       <name>Keith Wong</name>
-      <email>wongkwl@gmail.com.spring.mvc.controller.DemoController</email>
+      <email>wongkwl@gmail.com</email>
     </contributor>
     <contributor>
       <name>Lasse Voss</name>
@@ -88,7 +88,7 @@
     </contributor>
     <contributor>
       <name>Luke Stevens</name>
-      <email>nosuchluke@gmail.com.spring.mvc.controller.DemoController</email>
+      <email>nosuchluke@gmail.com</email>
     </contributor>
     <contributor>
       <name>Paul Krause</name>
@@ -96,11 +96,11 @@
     </contributor>
     <contributor>
       <name>Peter Leibiger</name>
-      <email>kuhnroyal@gmail.com.spring.mvc.controller.DemoController</email>
+      <email>kuhnroyal@gmail.com</email>
     </contributor>
     <contributor>
       <name>Riccardo Cossu</name>
-      <email>riccardo.cossu@gmail.com.spring.mvc.controller.DemoController</email>
+      <email>riccardo.cossu@gmail.com</email>
     </contributor>
     <contributor>
       <name>Tomáš Neuberg</name>
@@ -109,14 +109,14 @@
   </contributors>
 
   <scm>
-    <url>http://github.com.spring.mvc.controller.DemoController/mybatis/mybatis-3</url>
-    <connection>scm:git:ssh://github.com.spring.mvc.controller.DemoController/mybatis/mybatis-3.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com.spring.mvc.controller.DemoController/mybatis/mybatis-3.git</developerConnection>
-    <tag>mybatis-3.5.3</tag>
+    <url>http://github.com/mybatis/mybatis-3</url>
+    <connection>scm:git:ssh://github.com/mybatis/mybatis-3.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/mybatis/mybatis-3.git</developerConnection>
+    <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>GitHub Issue Management</system>
-    <url>https://github.com.spring.mvc.controller.DemoController/mybatis/mybatis-3/issues</url>
+    <url>https://github.com/mybatis/mybatis-3/issues</url>
   </issueManagement>
   <ciManagement>
     <system>Travis CI</system>
@@ -126,7 +126,7 @@
     <site>
       <id>gh-pages</id>
       <name>Mybatis GitHub Pages</name>
-      <url>git:ssh://git@github.com.spring.mvc.controller.DemoController/mybatis/mybatis-3.git?gh-pages#</url>
+      <url>git:ssh://git@github.com/mybatis/mybatis-3.git?gh-pages#</url>
     </site>
   </distributionManagement>
 
@@ -150,14 +150,12 @@
       <artifactId>ognl</artifactId>
       <version>3.2.10</version>
       <scope>compile</scope>
-      <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>org.javassist</groupId>
       <artifactId>javassist</artifactId>
       <version>3.24.1-GA</version>
-<!--      <scope>compile</scope>-->
-<!--      <optional>true</optional>-->
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
@@ -187,13 +185,11 @@
       <groupId>commons-logging</groupId>
       <artifactId>commons-logging</artifactId>
       <version>1.2</version>
-      <optional>true</optional>
     </dependency>
     <dependency>
       <groupId>cglib</groupId>
       <artifactId>cglib</artifactId>
       <version>3.2.10</version>
-      <optional>true</optional>
     </dependency>
 
     <!-- Test dependencies -->
@@ -253,12 +249,6 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId>
-      <version>8.0.17</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
       <groupId>org.assertj</groupId>
       <artifactId>assertj-core</artifactId>
       <version>3.12.2</version>
@@ -273,19 +263,13 @@
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>junit-jupiter</artifactId>
-      <version>1.12.1</version>
+      <version>1.11.2</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.testcontainers</groupId>
       <artifactId>postgresql</artifactId>
-      <version>1.12.1</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.testcontainers</groupId>
-      <artifactId>mysql</artifactId>
-      <version>1.12.1</version>
+      <version>1.11.2</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
@@ -303,7 +287,7 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
         <configuration>
-          <argLine>${argLine} -Xmx2048m</argLine>
+          <!--<argLine>${argLine} -Xmx2048m</argLine>-->
           <systemProperties>
             <property>
               <name>derby.stream.error.file</name>
@@ -314,12 +298,31 @@
               <value>${project.build.directory}</value>
             </property>
           </systemProperties>
+          <skip>true</skip>
+          <skipTests>true</skipTests>
         </configuration>
       </plugin>
-      <plugin>
+      <!--<plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-pdf-plugin</artifactId>
+      </plugin>-->
+
+      <plugin>
+        <artifactId>maven-source-plugin</artifactId>
+        <version>3.0.1</version>
+        <configuration>
+          <attach>true</attach>
+        </configuration>
+        <executions>
+          <execution>
+            <phase>compile</phase>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-shade-plugin</artifactId>

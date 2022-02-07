@@ -1,6 +1,5 @@
 /.idea
-/mybatis-plus-code-genera-spring-boot/.gitignore
-/mybatis-plus-code-genera-spring-boot/mvnw
-/mybatis-plus-code-genera-spring-boot/mvnw.cmd
-/mybatis-plus-code-genera-spring-boot/.mvn/
+
+/mybatis-3-master/target/
 /Mybatis-demo/target/
+/Mybatis-QuickStarter/target/

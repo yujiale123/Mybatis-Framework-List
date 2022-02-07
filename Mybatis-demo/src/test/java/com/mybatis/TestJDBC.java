@@ -1,7 +1,6 @@
 package com.mybatis;
 
 import com.mybatis.entity.User;
-import org.junit.Test;
 
 import java.sql.*;
 
@@ -12,7 +11,7 @@ import java.sql.*;
  */
 public class TestJDBC {
 
-    @Test
+   // @Test
     public  void test() throws SQLException {
         Connection conn=null;
         PreparedStatement preparedStatement=null;
@@ -36,9 +35,9 @@ public class TestJDBC {
 
             rs.next();
             User user =new User();
-            user.setId(rs.getLong("id"));
-            user.setUserName(rs.getString("user_name"));
-            user.setCreateTime(rs.getDate("create_time"));
+//            user.setId(rs.getLong("id"));
+//            user.setUserName(rs.getString("user_name"));
+//            user.setCreateTime(rs.getDate("create_time"));
             System.out.println(user.toString());
         } catch (Exception e) {
             e.printStackTrace();
@@ -58,12 +57,12 @@ public class TestJDBC {
         }
     }
 
-    @Test
-    public void testII(){
-        BaseDao baseDao = new BaseDao();
-        // 3个查询条件  1   2   3
-        User user = baseDao.executeJavaBean("select id,user_name,create_time from t_user where id=?", User.class, 1);
-
-        System.out.println(user);
-    }
+//    @Test
+//    public void testII(){
+//        BaseDao baseDao = new BaseDao();
+//        // 3个查询条件  1   2   3
+//        User user = baseDao.executeJavaBean("select id,user_name,create_time from t_user where id=?", User.class, 1);
+//
+//        System.out.println(user);
+//    }
 }
