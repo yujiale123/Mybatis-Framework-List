@@ -161,7 +161,7 @@ public class XMLConfigBuilder extends BaseBuilder {
     private void parseConfiguration(XNode root) {
         try {
             //issue #117 read properties first
-            // 解析 <properties /> 标签
+            // 解析 <properties /> 标签,并set到Configration对象中，配置properties属性后，在mybatis配置文件中可以使用${key}形式使用
             propertiesElement(root.evalNode("properties"));
             // 解析 <settings /> 标签
             Properties settings = settingsAsProperties(root.evalNode("settings"));
@@ -171,7 +171,7 @@ public class XMLConfigBuilder extends BaseBuilder {
              * 解析到org.apache.ibatis.session.Configuration#logImpl
              */
             loadCustomVfs(settings);
-            // 解析 <typeAliases /> 标签
+            // 解析 <typeAliases /> 标签，配置类的别名，配置后可以使用别名来替代全限定名
             typeAliasesElement(root.evalNode("typeAliases"));
             /** 解析我们的插件(比如分页插件)
              * mybatis自带的
@@ -180,6 +180,8 @@ public class XMLConfigBuilder extends BaseBuilder {
              ResultSetHandler (handleResultSets, handleOutputParameters)
              StatementHandler (prepare, parameterize, batch, update, query)
              解析到：org.apache.ibatis.session.Configuration#interceptorChain.interceptors
+
+             Mybatis允许在已映射语句执行过程中的某一点进行拦截调用
              */
             pluginElement(root.evalNode("plugins"));
             // 解析 <objectFactory /> 标签
@@ -191,7 +193,7 @@ public class XMLConfigBuilder extends BaseBuilder {
             // 赋值 <settings /> 到 Configuration 属性
             settingsElement(settings);
             // read it after objectFactory and objectWrapperFactory issue #631
-            // 解析 <environments /> 标签
+            // 解析 <environments /> 标签，解析环境变量
             environmentsElement(root.evalNode("environments"));
             /**
              * 解析数据库厂商

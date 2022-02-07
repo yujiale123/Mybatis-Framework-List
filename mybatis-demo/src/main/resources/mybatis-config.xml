@@ -2,6 +2,8 @@
 <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+
+    <!--SqlSessionFactoryBuilder 中配置的配置文件的优先级最高； config.properties 配置文件的优先级次之； properties 标签中的配置优先级最低 -->
     <!--properties 扫描属性文件.properties  -->
     <properties resource="db.properties"></properties>
 

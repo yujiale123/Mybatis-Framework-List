@@ -97,7 +97,13 @@ public class SimpleExecutor extends BaseExecutor {
         return Collections.emptyList();
     }
 
-    // 初始化 StatementHandler 对象
+    /**
+     *  初始化 StatementHandler 对象
+     * @param handler
+     * @param statementLog
+     * @return
+     * @throws SQLException
+     */
     private Statement prepareStatement(StatementHandler handler, Log statementLog) throws SQLException {
         Statement stmt;
         // 获得 Connection 对象
