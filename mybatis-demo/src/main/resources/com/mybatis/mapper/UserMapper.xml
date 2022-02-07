@@ -4,13 +4,13 @@
 <mapper namespace="com.mybatis.mapper.UserMapper">
 
 
-    <select id="selectById" resultType="com.mybatis.entity.User" parameterType="string">
-        select userName,password,enabled from users
-        <where>
-            <if test="username != null">
-                userName =#{username}
-            </if>
-        </where>
+    <select id="selectById" resultType="com.mybatis.entity.User" parameterType="String">
+        select username,password,enabled from users where username = #{username}
+        <!--        <where>-->
+        <!--            <if test="username != null and username != ''">-->
+        <!--                -->
+        <!--            </if>-->
+        <!--        </where>-->
     </select>
 
     <select id="selectAllUser" resultType="com.mybatis.entity.User">

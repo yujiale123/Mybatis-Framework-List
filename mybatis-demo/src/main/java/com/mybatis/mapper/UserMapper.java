@@ -12,7 +12,7 @@ import java.util.List;
 public interface UserMapper {
 
 
-    User selectById(@Param("username") String username);
+    User selectById(@Param(value = "username") String username);
 
     List<User> selectAllUser();
 }

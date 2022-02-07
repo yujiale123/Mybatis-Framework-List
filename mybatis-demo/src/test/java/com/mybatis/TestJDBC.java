@@ -1,6 +1,7 @@
 package com.mybatis;
 
 import com.mybatis.entity.User;
+import org.junit.Test;
 
 import java.sql.*;
 
@@ -11,44 +12,43 @@ import java.sql.*;
  */
 public class TestJDBC {
 
-   // @Test
-    public  void test() throws SQLException {
-        Connection conn=null;
-        PreparedStatement preparedStatement=null;
+    @Test
+    public void test() throws SQLException {
+        Connection conn = null;
+        PreparedStatement preparedStatement = null;
         try {
             // 1.加载驱动
             Class.forName("com.mysql.jdbc.Driver");
             // 2.创建连接
-            conn= DriverManager.
-                    getConnection("jdbc:mysql://localhost:3306/mybatis_example", "root", "123456");
+            conn = DriverManager.
+                    getConnection("jdbc:mysql://localhost:13306/nacos", "root", "root");
             // SQL语句
-            String sql="select id,user_name,create_time from t_user where id=? ";
+            String sql = "select username,password,enabled from users where username=? ";
 
             // 获得sql执行者
-            preparedStatement=conn.prepareStatement(sql);
-            preparedStatement.setInt(1,1);
+            preparedStatement = conn.prepareStatement(sql);
+            preparedStatement.setInt(1, 1);
 
             // 执行查询
             //ResultSet rs= pstmt.executeQuery();
             preparedStatement.execute();
-            ResultSet rs= preparedStatement.getResultSet();
+            ResultSet rs = preparedStatement.getResultSet();
 
             rs.next();
-            User user =new User();
+            User user = new User();
 //            user.setId(rs.getLong("id"));
 //            user.setUserName(rs.getString("user_name"));
 //            user.setCreateTime(rs.getDate("create_time"));
             System.out.println(user.toString());
         } catch (Exception e) {
             e.printStackTrace();
-        }
-        finally{
+        } finally {
             // 关闭资源
             try {
-                if(conn!=null){
+                if (conn != null) {
                     conn.close();
                 }
-                if(preparedStatement!=null){
+                if (preparedStatement != null) {
                     preparedStatement.close();
                 }
             } catch (SQLException e) {
@@ -57,12 +57,12 @@ public class TestJDBC {
         }
     }
 
-//    @Test
-//    public void testII(){
-//        BaseDao baseDao = new BaseDao();
-//        // 3个查询条件  1   2   3
-//        User user = baseDao.executeJavaBean("select id,user_name,create_time from t_user where id=?", User.class, 1);
-//
-//        System.out.println(user);
-//    }
+    @Test
+    public void testII(){
+        BaseDao baseDao = new BaseDao();
+        // 3个查询条件  1   2   3
+        User user = baseDao.executeJavaBean("select id,user_name,create_time from t_user where id=?", User.class, 1);
+
+        System.out.println(user);
+    }
 }

@@ -25,7 +25,6 @@ public class App {
         String resource = "mybatis-config.xml";
         Reader reader;
         try {
-
             //将XML配置文件构建为Configuration配置类
             reader = Resources.getResourceAsReader(resource);
             // 通过加载配置文件流构建一个SqlSessionFactory  DefaultSqlSessionFactory
