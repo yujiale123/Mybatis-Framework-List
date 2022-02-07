@@ -383,7 +383,6 @@ public class DefaultResultSetHandler implements ResultSetHandler {
             checkResultHandler();
             // 处理嵌套映射的结果
             handleRowValuesForNestedResultMap(rsw, resultMap, resultHandler, rowBounds, parentMapping);
-        // 处理简单映射的情况
         } else {
             // 处理简单映射的结果
             handleRowValuesForSimpleResultMap(rsw, resultMap, resultHandler, rowBounds, parentMapping);

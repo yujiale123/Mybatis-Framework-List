@@ -89,7 +89,13 @@ public class SqlSessionFactoryBuilder {
         return build(inputStream, null, properties);
     }
 
-    // 2.调用的重载方法
+    /**
+     * 2.调用的重载方法
+     * @param inputStream
+     * @param environment
+     * @param properties
+     * @return
+     */
     public SqlSessionFactory build(InputStream inputStream, String environment, Properties properties) {
         try {
             // 创建 XMLConfigBuilder, XMLConfigBuilder是专门解析mybatis的配置文件的类

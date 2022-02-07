@@ -82,7 +82,8 @@ public class DefaultParameterHandler implements ParameterHandler {
                     // 获得值
                     Object value;
                     String propertyName = parameterMapping.getProperty();
-                    if (boundSql.hasAdditionalParameter(propertyName)) { // issue #448 ask first for additional params
+                    if (boundSql.hasAdditionalParameter(propertyName)) {
+                        // issue #448 ask first for additional params
                         value = boundSql.getAdditionalParameter(propertyName);
                     } else if (parameterObject == null) {
                         value = null;
