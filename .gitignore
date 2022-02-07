@@ -1,11 +1,11 @@
 /.idea
 
 /mybatis-3-master/target/
-/Mybatis-demo/target/
-/Mybatis-QuickStarter/target/
-/Mybatis-demo/target/classes/
-/MybatisPlus-SpringCodeGenerator/target/
-/Mybatis_Multitable/target/
+/mybatis-demo/target/
+/mybatis-quickstarter/target/
+/mybatis-demo/target/classes/
+/mybatisplus-springcodegenerator/target/
+/mybatis_multitable/target/
 /mybatis-plus-spring-boot/.mvn/
 /mybatis-plus-spring-boot/target/
-/Mybatis-Plus-Demo/target/
+/mybatis-Plus-demo/target/

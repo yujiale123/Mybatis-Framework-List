@@ -9,11 +9,11 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>Mybatis-QuickStarter</module>
-        <module>Mybatis_Multitable</module>
-        <module>Mybatis-Plus-Demo</module>
-        <module>MybatisPlus-SpringCodeGenerator</module>
-        <module>Mybatis-demo</module>
+        <module>mybatis-quickstarter</module>
+        <module>mybatis_multitable</module>
+        <module>mybatis-plus-demo</module>
+        <module>mybatisplus-springcodegenerator</module>
+        <module>mybatis-demo</module>
     </modules>
 
     <properties>
