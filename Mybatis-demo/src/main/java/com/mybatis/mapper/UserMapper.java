@@ -10,7 +10,9 @@ import java.util.List;
  * @author yujiale
  */
 public interface UserMapper {
-    User selectById(@Param("userName") String username);
+
+
+    User selectById(@Param("username") String username);
 
     List<User> selectAllUser();
 }

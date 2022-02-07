@@ -2,22 +2,20 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.mybatis.mapper.UserMapper">
-    <cache ></cache>
-    <!-- Mybatis 是如何将 sql 执行结果封装为目标对象并返回的？都有哪些映射形式？-->
-    <resultMap id="result" type="com.mybatis.entity.User" >
-        <id column="id" jdbcType="BIGINT" property="id" />
-        <result column="user_name" jdbcType="VARCHAR" property="userName" />
-        <result column="create_time" jdbcType="DATE" property="createTime" />
-    </resultMap>
 
 
-    <select id="selectById"  resultMap="result"     >
-        select id,user_name,create_time from t_user where id=${param1}
+    <select id="selectById" resultType="com.mybatis.entity.User" parameterType="string">
+        select username,password,enabled from users
         <where>
-            <if test="param1>0">
-               and id=#{param1}
+            <if test="userName != null">
+                username =#{userName}
             </if>
         </where>
+    </select>
+
+    <select id="selectAllUser" resultType="com.mybatis.entity.User">
+        select username, password, enabled
+        from users
     </select>
 </mapper>
 

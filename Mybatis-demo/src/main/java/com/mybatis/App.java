@@ -35,7 +35,7 @@ public class App {
                 // 执行查询 底层执行jdbc
                 User user = (User) session.selectOne("com.mybatis.mapper.UserMapper.selectById", "");
                 session.commit();
-              //  System.out.println(user.getUsername());
+
             } catch (Exception e) {
                 e.printStackTrace();
             } finally {
@@ -66,7 +66,8 @@ public class App {
         //(2)将查询任务委派了executor执行器
         User user = sqlSession.selectOne("com.mybatis.mapper.UserMapper.selectById", "nacos");
         System.out.println(user);
-        User user2 = sqlSession.selectOne("com.mybatis.mapper.UserMapper.selectById", "");
+        System.out.println("=============");
+        User user2 = sqlSession.selectOne("com.mybatis.mapper.UserMapper.selectById", "nacos");
         System.out.println(user2);
         // 5.释放资源
         sqlSession.close();

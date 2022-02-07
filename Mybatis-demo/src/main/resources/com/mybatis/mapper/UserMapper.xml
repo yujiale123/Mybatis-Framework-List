@@ -5,10 +5,10 @@
 
 
     <select id="selectById" resultType="com.mybatis.entity.User" parameterType="string">
-        select username,password,enabled from users
+        select userName,password,enabled from users
         <where>
-            <if test="userName != null">
-                username =#{userName}
+            <if test="username != null">
+                userName =#{username}
             </if>
         </where>
     </select>
