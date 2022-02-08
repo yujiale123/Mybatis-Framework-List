@@ -111,19 +111,26 @@ public class XMLConfigBuilder extends BaseBuilder {
         this(new XPathParser(inputStream, true, props, new XMLMapperEntityResolver()), environment, props);
     }
 
+    /**
+     * 构造设置Properties
+     * Properties
+     * @param parser
+     * @param environment
+     * @param props
+     */
     private XMLConfigBuilder(XPathParser parser, String environment, Properties props) {
         /**
          * 调用父类的BaseBuilder的构造方法:给
-         * configuration赋值
-         * typeAliasRegistry别名注册器赋值
-         * TypeHandlerRegistry赋值
+         *      configuration赋值
+         *      typeAliasRegistry别名注册器赋值
+         *      TypeHandlerRegistry赋值
          */
         super(new Configuration());
         ErrorContext.instance().resource("SQL Mapper Configuration");
 
         /**
          * 把props绑定到configuration的props属性上、
-         * 设置 Configuration 的 variables 属性
+         *      设置 Configuration 的 variables 属性
          */
         this.configuration.setVariables(props);
         this.parsed = false;

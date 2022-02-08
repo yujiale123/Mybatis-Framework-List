@@ -31,6 +31,14 @@ import java.util.List;
  * 执行器接口
  *
  * @author Clinton Begin
+ *
+ * 读和写操作相关的方法
+ * 事务相关的方法
+ * 缓存相关的方法
+ * 设置延迟加载的方法
+ * 设置包装的
+ * Executor
+ * 对象的方法
  */
 public interface Executor {
 

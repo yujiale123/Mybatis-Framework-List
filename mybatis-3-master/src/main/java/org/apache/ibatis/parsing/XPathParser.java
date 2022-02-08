@@ -260,7 +260,7 @@ public class XPathParser {
     }
 
     /**
-     * 创建 Document 对象
+     * 创建Document对象--->将XML文件解析成Documen对象
      *
      * @param inputSource XML 的 InputSource 对象
      * @return Document 对象
@@ -270,7 +270,8 @@ public class XPathParser {
         try {
             // 1> 创建 DocumentBuilderFactory 对象
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-            factory.setValidating(validation); // 设置是否验证 XML
+            // 设置是否验证 XML
+            factory.setValidating(validation);
 
             factory.setNamespaceAware(false);
             factory.setIgnoringComments(true);

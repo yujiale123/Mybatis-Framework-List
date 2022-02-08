@@ -96,7 +96,7 @@ public class MapperAnnotationBuilder {
      * 解析mapper映射文件
      */
     public void parse() {
-        // 判断当前 Mapper 接口是否应加载过。
+        // 判断当前 Mapper 接口是否已经加载过。
         String resource = type.toString();
         if (!configuration.isResourceLoaded(resource)) {
             // 加载对应的 XML Mapper
