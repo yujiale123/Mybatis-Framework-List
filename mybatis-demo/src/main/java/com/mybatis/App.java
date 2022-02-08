@@ -18,7 +18,7 @@ import java.util.List;
  */
 public class App {
     public static void main(String[] args) throws IOException {
-        test1();
+        test0();
     }
 
     public static void test0() {
@@ -33,7 +33,7 @@ public class App {
             SqlSession session = sqlMapper.openSession();
             try {
                 // 执行查询 底层执行jdbc
-                User user = (User) session.selectOne("com.mybatis.mapper.UserMapper.selectById", "");
+                User user = (User) session.selectOne("com.mybatis.mapper.UserMapper.selectById", "nacos");
                 session.commit();
 
             } catch (Exception e) {

@@ -7,6 +7,7 @@ import com.mybatis.entity.User;
 /**
  * @author yujiale
  */
+@org.apache.ibatis.annotations.Mapper
 public interface UserMapper  extends Mapper<User> {
 
 
