@@ -1,8 +1,8 @@
 package com.mybatis.mybatisplusspringboot;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.lagou.pojo.User;
-import org.junit.Test;
+import com.mybatis.mybatisplusspringboot.pojo.User;
+import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
